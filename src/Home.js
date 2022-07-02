@@ -14,13 +14,13 @@ function Home() {
                     title="Skatey Skateboard, green wheels"
                     price={188.95}
                     rating={5}
-                    image="https://i.imgur.com/tMwhWDZ.jpg"/>
+                    image="https://i.imgur.com/5e4qOJ8.png"/>
                     <Product
                     id="2"
                     title="Moonshine, 9 oz."
                     price={30.85}
                     rating={5}
-                    image="https://i.imgur.com/RcEU5mb.png"/>
+                    image="https://i.imgur.com/GYeZpvT.png"/>
                 </div>
 
                 <div className="home__row">
