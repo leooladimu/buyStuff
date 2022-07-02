@@ -30,7 +30,7 @@ function Home() {
                     title="Antique Bicycle, black"
                     price={1100.95}
                     rating={5}
-                    image="https://i.imgur.com/KaoP217.png"
+                    image="https://i.imgur.com/VYhI3aW.png"
                     />
                     <Product
                     id="4"
@@ -44,7 +44,7 @@ function Home() {
                     title="Dishiki, blue"
                     price={56.58}
                     rating={3}
-                    image="https://i.imgur.com/iOUAvsZ.jpg"
+                    image="https://i.imgur.com/AHMiC5G.png"
                     />
                 </div>
 
@@ -54,7 +54,7 @@ function Home() {
                     title="Police Car, slightly used"
                     price={250}
                     rating={3}
-                    image="https://i.imgur.com/vf9ghhg.png"
+                    image="https://i.imgur.com/884ckWY.png"
                     />
                 </div>
                 
