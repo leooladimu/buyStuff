@@ -37,13 +37,12 @@ function Login() {
 
     return (
         <div className='login'> 
-            <Link to='/' style={{ textDecoration: "none" }}>
+            {/*<Link to='/' style={{ textDecoration: "none" }}>
                 <div className="login__logo">
                     <StoreMallDirectoryOutlinedIcon className="login__logoImage" fontSize="large" />
                     <h2 className="login__logoTitle">buyStuff</h2>
                 </div>
-            </Link>
-
+            </Link>*/}
             <div className='login__container'>
                 <h1>Sign-in</h1>
 
@@ -61,8 +60,6 @@ function Login() {
                     By signing-in you agree to the buyStuff Website Conditions of Use & Sale. Please
                     see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
                 </p>
-
-                <button className='login__registerButton' onClick={register}>Create your buyStuff Account</button>
             </div>
         </div>
     )

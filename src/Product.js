@@ -1,11 +1,10 @@
-import { Button } from "@mui/material";
+
 import React from "react";
 import "./Product.css";
 import { useStateValue } from "./StateProvider";
 
 function Product({id, title, image, price, rating}) {
-
-    const [dispatch] = useStateValue();
+    const [state, dispatch] = useStateValue();
 
     const addToBasket = () => {
         dispatch({
@@ -36,7 +35,7 @@ function Product({id, title, image, price, rating}) {
                 </div>
             </div>
             <img src={image} alt=""/>
-            <Button onClick={addToBasket}><span>Add to Cart</span></Button>
+            <button onClick={addToBasket}><span>Add to Cart</span></button>
         </div>
     );
 }

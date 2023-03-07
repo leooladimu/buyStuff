@@ -2,7 +2,7 @@
     height: 60px; 
     display: flex;
     align-items: center;
-    background-color: #703ea2;
+    background-color: #0b5218;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -11,7 +11,7 @@
 .header__logo {
     display: flex;
     align-items: center;
-    color: #50fd3d;
+    color: #fdd73d;
     margin: 0 25px;
 }
 
@@ -22,7 +22,7 @@
 .header__logoTitle {
     text-decoration: none;
     border: 0;
-    color: rgb(244, 226, 63);
+    color: #fdd73d;
 }
 
 .header__search {
@@ -43,7 +43,7 @@
 .header__searchIcon {
     padding: 5px;
     height: 22px !important;
-    background-color: #50fd3d;
+    background-color: #fdd73d;
 }
 
 .header__nav {
@@ -56,7 +56,7 @@
     flex-direction: column;
     margin-left: 10px;
     margin-right: 10px;  
-    color: rgb(244, 226, 63);
+    color: #fdd03d;
 }
 
 .nav__itemLineOne {
@@ -71,7 +71,7 @@
 .nav__itemBasket {
     display: flex;
     align-items: center;
-    color: rgb(244, 226, 63);
+    color: #fdd73d;
     margin-right: 50px;
     margin-left: 10px;
 }

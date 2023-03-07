@@ -1,6 +1,10 @@
 import React from 'react';
 import './Home.css';
 import Product from './Product';
+import bike from './assets/bike.png';
+import skatey from './assets/skateboard.png';
+import sneaky from './assets/sneaker.png';
+import cop from './assets/cop.png';
 
 function Home() {
     return (
@@ -14,13 +18,13 @@ function Home() {
                     title="Skatey Skateboard, green wheels"
                     price={188.95}
                     rating={5}
-                    image="https://i.imgur.com/5e4qOJ8.png"/>
+                    image={skatey}/>
                     <Product
                     id="2"
                     title="Moonshine, 9 oz."
                     price={30.85}
                     rating={5}
-                    image="https://i.imgur.com/GYeZpvT.png"/>
+                    image="https://i.imgur.com/9TN3KVP.png"/>
                 </div>
 
                 <div className="home__row">
@@ -30,21 +34,21 @@ function Home() {
                     title="Antique Bicycle, black"
                     price={1100.95}
                     rating={5}
-                    image="https://i.imgur.com/VYhI3aW.png"
+                    image={bike}
                     />
                     <Product
                     id="4"
                     title="Shoe, red"
                     price={9.99}
                     rating={4}
-                    image="https://i.imgur.com/BlWgPoi.png"
+                    image={sneaky}
                     />
                     <Product
                     id="5"
                     title="Dishiki, blue"
                     price={56.58}
                     rating={3}
-                    image="https://i.imgur.com/AHMiC5G.png"
+                    image="https://i.imgur.com/SwbZZD7.png"
                     />
                 </div>
 
@@ -54,7 +58,7 @@ function Home() {
                     title="Police Car, slightly used"
                     price={250}
                     rating={3}
-                    image="https://i.imgur.com/884ckWY.png"
+                    image={cop}
                     />
                 </div>
                 
