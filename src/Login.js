@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Login.css'
-import { Link, useNavigate } from "react-router-dom";
-import StoreMallDirectoryOutlinedIcon from '@mui/icons-material/StoreMallDirectory';
+import { useNavigate } from "react-router-dom";
 import { auth } from "./firebase";
 
 function Login() {
@@ -20,20 +19,20 @@ function Login() {
             .catch(error => alert(error.message))
 
     }
-
-    const register = e => {
-        e.preventDefault();
-
-        auth
-            .createUserWithEmailAndPassword(email, password)
-            .then((auth) => {
-                if (auth) {
-                    navigate.push('/');
-                }
-            })
-            .catch(error => alert(error.message))
-
-    }
+//
+//    const register = e => {
+//        e.preventDefault();
+//
+//        auth
+//            .createUserWithEmailAndPassword(email, password)
+//            .then((auth) => {
+//                if (auth) {
+//                    navigate.push('/');
+//                }
+//            })
+//            .catch(error => alert(error.message))
+//
+//    }
 
     return (
         <div className='login'> 
