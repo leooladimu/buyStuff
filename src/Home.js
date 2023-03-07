@@ -52,7 +52,7 @@ function Home() {
                     />
                 </div>
 
-                <div className="home__row">
+                {/*<div className="home__row">
                 <Product
                     id="6"
                     title="Police Car, slightly used"
@@ -60,7 +60,7 @@ function Home() {
                     rating={3}
                     image={cop}
                     />
-                </div>
+                </div>*/}
                 
             </div>
         </div>
