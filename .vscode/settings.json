@@ -1,0 +1,8 @@
+{
+  "fixJson.indentationSpaces": 2,
+  "editor.autoIndent": "full",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.wordWrap": "on",
+  "editor.indentSize": "tabSize"
+}
